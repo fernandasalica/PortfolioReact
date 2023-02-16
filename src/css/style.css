@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.menu {
+  font-size: 18px;
+}
+
+.bg-button {
+  background-color: #ffce31;
+  border: #ffce31;
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.bg-button:hover {
+  background-color: #57b9c4;
+  color: black;
+}
+
+.image {
+  background: url("../img/hero.jpg") no-repeat center center/cover;
+  padding: 0;
+  max-width: 100vw;
+}
+.fondo {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.6);
+  padding: 1rem 0 7rem;
+}
+
+.input {
+  width: 20rem;
+}
+
+.form {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 15px;
+}
+
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: #57b9c4;
+}
+
+.welcome {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: large;
+}
+
+/*===================== SKILLS SECTION =============================== */
+section.skills .container {
+  width: 50%;
+}
+
+section.skills .skill {
+  margin-bottom: 1rem;
+}
+
+section.skills .skill .head {
+  background: #ffce31;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-white);
+  padding: 1.6rem;
+  cursor: pointer;
+}
+
+section.skills .skill .head .left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+section.skills .skill .item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  padding: 1.6rem;
+  background: #f4f4f4;
+  margin-bottom: 0.3rem;
+}
+
+section.skills .skill .progress-area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+section.skills .item .progress-bar {
+  width: 100%;
+  height: 1rem;
+  background: rgba(158, 149, 27, 0.12);
+}
+
+section.skills .item .progress-bar .progress {
+  height: 100%;
+  width: 92%;
+  background: #ffce31;
+}
+
+section.skills .item:nth-child(3) .progress-bar .progress {
+  width: 50%;
+}
+
+section.skills .item:nth-child(4) .progress-bar .progress {
+  width: 75%;
+}
+
+@media (max-width: 720px) {
+  .link {
+    font-size: 15px;
+  }
+
+  .welcome {
+    font-size: 15px;
+  }
+
+  .bg-button {
+    font-size: 15px;
+  }
+
+  .bg-button:hover {
+    background-color: #f9f54b;
+    color: black;
+  }
+
+  section.skills .container {
+    width: 25rem;
+  }
+
+  section h4 {
+    font-size: 20px;
+  }
+  section h5 {
+    font-size: 15px;
+  }
+}
