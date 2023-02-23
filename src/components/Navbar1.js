@@ -15,7 +15,7 @@ const Navbar1 = () => {
       >
         <Container>
           <Navbar.Brand>
-            <img src="./img/logomariposa.png" width={70} href="#"></img>
+            <img src="./img/logoFS.png" width={70} href="#"></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
