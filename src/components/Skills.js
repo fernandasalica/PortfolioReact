@@ -56,9 +56,9 @@ export const Skills = () => {
             <h5>NodeJs</h5>
             <div class="progress-area">
               <div class="progress-bar">
-                <div class="progress"></div>
+                <div class="progress-node"></div>
               </div>
-              <h5>92%</h5>
+              <h5>40%</h5>
             </div>
           </div>
 

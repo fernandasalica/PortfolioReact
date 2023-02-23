@@ -6,15 +6,21 @@ import Navbar from "react-bootstrap/Navbar";
 const Navbar1 = () => {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" className="text-black" id="inicio">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        className="text-black"
+        sticky="top"
+        style={{ backgroundColor: "#EEEEEE" }}
+      >
         <Container>
-          <Navbar.Brand href="#home">
-            <img src="./img/logomariposa.png" width={80}></img>
+          <Navbar.Brand>
+            <img src="./img/logomariposa.png" width={70} href="#"></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#inicio" className="link menu">
+              <Nav.Link href="#home" className="link menu">
                 Inicio
               </Nav.Link>
               <Nav.Link href="#portfolio" className="link menu">

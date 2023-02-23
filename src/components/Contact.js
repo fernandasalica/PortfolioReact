@@ -8,12 +8,21 @@ const Contact = () => {
       <Container className="image" id="contact">
         <div className="fondo">
           <h1 className="text-center mt-5 text-white">CONTACTO</h1>
-          <Form className="form">
+          <h5 className="text-white text-center my-3">
+            Contactate y haceme llegar tu comentario, opinión...
+          </h5>
+          <Form
+            className="form"
+            action="https://formspree.io/f/xvoldrwl"
+            method="POST"
+          >
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Control
                 className="input form"
                 type="text"
                 placeholder="Nombre"
+                name="name"
+                required
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -21,6 +30,8 @@ const Contact = () => {
                 className="input form"
                 type="email"
                 placeholder="Email"
+                name="email"
+                required
               />
             </Form.Group>
             <Form.Group
@@ -31,6 +42,7 @@ const Contact = () => {
                 as="textarea"
                 rows={3}
                 className="input form"
+                name="message"
                 placeholder="Mensaje"
               />
             </Form.Group>

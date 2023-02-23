@@ -1,19 +1,29 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
       <Container>
         <div className="social">
-          <i className="fa-brands fa-facebook p-3"></i>
-          <i className="fa-brands fa-square-instagram  p-3"></i>
-          <i className="fa-brands fa-github  p-3"></i>
+          <Link
+            target={"_blank"}
+            to={"https://www.facebook.com/profile.php?id=1118830091"}
+          >
+            <i className="fa-brands fa-facebook p-3 social-color"></i>
+          </Link>
+          <Link target={"_blank"} to={"https://www.instagram.com/mfsalica/"}>
+            <i className="fa-brands fa-square-instagram  p-3 social-color"></i>
+          </Link>
+          <Link target={"_blank"} to={"https://github.com/fernandasalica"}>
+            <i className="fa-brands fa-github  p-3 social-color"></i>
+          </Link>
         </div>
         <div className="d-flex justify-content-center">
           <Nav>
-            <Nav.Link href="#inicio" className="link">
+            <Nav.Link href="#home" className="link">
               Inicio
             </Nav.Link>
             <Nav.Link href="#portfolio" className="link">

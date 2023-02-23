@@ -17,14 +17,19 @@ const Portfolio = () => {
             <Card>
               <Card.Img variant="top" src="./img/naturesite.jpg" />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>Nature Site</Card.Title>
                 <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Blog de consejos de vida saludable realizado en HTML, Boostrap
+                  y Css.
                 </Card.Text>
                 <Card.Footer className="bg-white p-1">
-                  <Button className="bg-button">Visitar sitio</Button>
+                  <Button
+                    className="bg-button"
+                    href="https://naturesite.netlify.app/index.html"
+                    target="_blank"
+                  >
+                    Visitar sitio
+                  </Button>
                 </Card.Footer>
               </Card.Body>
             </Card>
@@ -33,14 +38,18 @@ const Portfolio = () => {
             <Card>
               <Card.Img variant="top" src="./img/rollingresto.jpg" />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>Rolling Resto</Card.Title>
                 <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Blog de comidas realizado en HTML, Boostrap, Css y Javascript.
                 </Card.Text>
                 <Card.Footer className="bg-white p-1">
-                  <Button className="bg-button">Visitar sitio</Button>
+                  <Button
+                    className="bg-button"
+                    href="https://proyecto2-grupo3-rcs2022.netlify.app/index.html"
+                    target="_blank"
+                  >
+                    Visitar sitio
+                  </Button>
                 </Card.Footer>
               </Card.Body>
             </Card>
@@ -49,14 +58,19 @@ const Portfolio = () => {
             <Card>
               <Card.Img variant="top" src="./img/rolligfilms.jpg" />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>Rolling Films</Card.Title>
                 <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Blog de películas realizado en HTML, Boostrap, Css,
+                  Javascript, React, NodeJs, MongoDb.
                 </Card.Text>
                 <Card.Footer className="bg-white p-1">
-                  <Button className="bg-button">Visitar sitio</Button>
+                  <Button
+                    className="bg-button"
+                    href="https://react-proyecto-3.vercel.app/"
+                    target="_blank"
+                  >
+                    Visitar sitio
+                  </Button>
                 </Card.Footer>
               </Card.Body>
             </Card>

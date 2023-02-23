@@ -15,8 +15,8 @@ body {
 }
 
 .bg-button {
-  background-color: #ffce31;
-  border: #ffce31;
+  background-color: #57b9c4;
+  border: #57b9c4;
   font-size: 17px;
   font-weight: bold;
   color: black;
@@ -25,7 +25,7 @@ body {
 }
 
 .bg-button:hover {
-  background-color: #57b9c4;
+  background-color: #bfdce5;
   color: black;
 }
 
@@ -58,6 +58,10 @@ body {
   padding: 15px;
 }
 
+.social-color {
+  color: black;
+}
+
 .link {
   color: black;
 }
@@ -72,7 +76,7 @@ body {
 }
 
 .text {
-  font-size: large;
+  font-size: 20px;
 }
 
 /*===================== SKILLS SECTION =============================== */
@@ -85,11 +89,10 @@ section.skills .skill {
 }
 
 section.skills .skill .head {
-  background: #ffce31;
+  background: #57b9c4;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--color-white);
   padding: 1.6rem;
   cursor: pointer;
 }
@@ -103,7 +106,6 @@ section.skills .skill .head .left {
 section.skills .skill .item {
   display: flex;
   flex-direction: column;
-  align-items: start;
   gap: 1rem;
   padding: 1.6rem;
   background: #f4f4f4;
@@ -126,7 +128,13 @@ section.skills .item .progress-bar {
 section.skills .item .progress-bar .progress {
   height: 100%;
   width: 92%;
-  background: #ffce31;
+  background: #57b9c4;
+}
+
+.progress-node {
+  height: 100%;
+  width: 40%;
+  background: #57b9c4;
 }
 
 section.skills .item:nth-child(3) .progress-bar .progress {
