@@ -61,6 +61,9 @@ body {
 .social-color {
   color: black;
 }
+.social-color:hover {
+  color: #57b9c4;
+}
 
 .link {
   color: black;
