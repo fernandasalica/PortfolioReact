@@ -8,7 +8,10 @@ export const Skills = () => {
         <div class="skill">
           <div class="head">
             <div class="left">
-              <span class="material-icons-sharp">design_services</span>
+              {/* <span class="material-icons-sharp">design_services</span> */}
+              <span>
+                <i class="fa-solid fa-pen-ruler"></i>
+              </span>
               <h4>FrontEnd Development</h4>
             </div>
           </div>
