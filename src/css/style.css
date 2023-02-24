@@ -113,7 +113,6 @@ section.skills .skill .head .left {
 section.skills .skill .item {
   display: flex;
   flex-direction: column;
-  align-items: start;
   gap: 1rem;
   padding: 1.6rem;
   background: #f4f4f4;
@@ -180,7 +179,7 @@ section.skills .item:nth-child(4) .progress-bar .progress {
   }
 
   section h4 {
-    font-size: 20px;
+    font-size: 23px;
   }
   section h5 {
     font-size: 15px;
