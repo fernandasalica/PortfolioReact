@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 const Aboutme = () => {
   return (
-    <Container className="mt-5" id="aboutme">
+    <Container className="mt-4" id="aboutme">
       <h1 className="text-center">SOBRE MI</h1>
       <hr></hr>
       <p className="text-center text mt-3 mb-5">
