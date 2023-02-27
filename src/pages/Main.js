@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar1 from "../components/Navbar1";
-import { Route, Routes } from "react-router-dom";
 import Hero from "../components/Hero";
 import Aboutme from "../components/Aboutme";
 import Portfolio from "../components/Portfolio";
@@ -18,11 +17,6 @@ const Main = () => {
       <Portfolio />
       <Contact />
       <Footer />
-      <Routes>
-        {/* <Route path="/Portfolio" element={<Portfolio />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/AboutMe" element={<AboutMe />} /> */}
-      </Routes>
     </>
   );
 };

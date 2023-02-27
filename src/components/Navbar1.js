@@ -6,14 +6,14 @@ import Navbar from "react-bootstrap/Navbar";
 const Navbar1 = () => {
   return (
     <>
-      <Navbar bg="light" expand="lg" sticky="top">
-        <Container fluid>
-          <Navbar.Brand href="#">
-            <img src="./img/logoFS.png" width={70} href="#"></img>
+      <Navbar collapseOnSelect expand="lg" bg="light" sticky="top">
+        <Container>
+          <Navbar.Brand>
+            <img src="./img/logoFS.png" width={70} href="#home"></img>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav className="ms-auto my-2 my-lg-0">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ms-auto">
               <Nav.Link href="#home" className="menu">
                 Inicio
               </Nav.Link>
