@@ -6,7 +6,13 @@ import Navbar from "react-bootstrap/Navbar";
 const Navbar1 = () => {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="light" sticky="top">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="light"
+        sticky="top"
+        className="nav-bar"
+      >
         <Container>
           <Navbar.Brand>
             <a href="#home">

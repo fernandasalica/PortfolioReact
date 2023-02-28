@@ -75,10 +75,8 @@ const Portfolio = () => {
               </Card.Body>
             </Card>
           </Col>
-          {/* ))} */}
         </Row>
       </Container>
-      {/* </section> */}
     </>
   );
 };

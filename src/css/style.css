@@ -91,6 +91,11 @@ body {
   font-size: 19px;
 }
 
+.nav-bar {
+  top: 0;
+  padding: 0;
+}
+
 /*===================== SKILLS SECTION =============================== */
 section.skills .container {
   width: 50%;
