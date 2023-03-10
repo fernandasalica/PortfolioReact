@@ -10,7 +10,7 @@ const Portfolio = () => {
       <Container className="mb-5" id="portfolio">
         <br></br>
         <br></br>
-        <h1 className="text-center">PORTFOLIO</h1>
+        <h2 className="text-center">PORTFOLIO</h2>
         <hr></hr>
         <Row xs={1} md={3} className="g-4">
           <Col>

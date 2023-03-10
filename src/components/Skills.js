@@ -3,7 +3,7 @@ import React from "react";
 export const Skills = () => {
   return (
     <section class="skills" id="skills">
-      <h1 className="text-center my-4">CONOCIMIENTOS</h1>
+      <h2 className="text-center my-4">CONOCIMIENTOS</h2>
       <div class="container">
         <div class="skill">
           <div class="head">
@@ -42,6 +42,16 @@ export const Skills = () => {
                 <div class="progress"></div>
               </div>
               <h5>75%</h5>
+            </div>
+          </div>
+
+          <div class="item">
+            <h5>REACT</h5>
+            <div class="progress-area">
+              <div class="progress-bar">
+                <div class="progress"></div>
+              </div>
+              <h5>50%</h5>
             </div>
           </div>
         </div>

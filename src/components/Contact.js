@@ -7,7 +7,7 @@ const Contact = () => {
     <>
       <Container className="image" id="contact">
         <div className="fondo">
-          <h1 className="text-center mt-5 text-white">CONTACTO</h1>
+          <h2 className="text-center mt-5 text-white">CONTACTO</h2>
           <h5 className="text-white text-center my-3">
             Contactate y haceme llegar tu comentario, opinión...
           </h5>

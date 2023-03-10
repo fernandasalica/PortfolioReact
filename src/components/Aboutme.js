@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const Aboutme = () => {
   return (
     <Container className="mt-4" id="aboutme">
-      <h1 className="text-center">SOBRE MI</h1>
+      <h2 className="text-center">SOBRE MI</h2>
       <hr></hr>
       <p className="text-center text mt-3 mb-5">
         Soy Ingeniera en Sistemas y apenas obtuve mi título comencé a

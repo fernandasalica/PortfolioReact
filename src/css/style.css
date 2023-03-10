@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
   padding: 0;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .menu {
@@ -160,6 +160,10 @@ section.skills .item:nth-child(3) .progress-bar .progress {
 
 section.skills .item:nth-child(4) .progress-bar .progress {
   width: 75%;
+}
+
+section.skills .item:nth-child(5) .progress-bar .progress {
+  width: 50%;
 }
 
 @media (max-width: 720px) {
