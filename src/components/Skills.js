@@ -3,7 +3,7 @@ import React from "react";
 export const Skills = () => {
   return (
     <section class="skills" id="skills">
-      <h2 className="text-center my-4">CONOCIMIENTOS</h2>
+      <h4 className="text-center my-4">CONOCIMIENTOS</h4>
       <div class="container">
         <div class="skill">
           <div class="head">
@@ -11,47 +11,47 @@ export const Skills = () => {
               <span>
                 <i class="fa-solid fa-pen-ruler"></i>
               </span>
-              <h4>FrontEnd Development</h4>
+              <h5>FrontEnd Development</h5>
             </div>
           </div>
 
           <div class="item">
-            <h5>HTML</h5>
+            <p>HTML</p>
             <div class="progress-area">
               <div class="progress-bar">
                 <div class="progress"></div>
               </div>
-              <h5>92%</h5>
+              <p>92%</p>
             </div>
           </div>
 
           <div class="item">
-            <h5>CSS</h5>
+            <p>CSS</p>
             <div class="progress-area">
               <div class="progress-bar">
                 <div class="progress"></div>
               </div>
-              <h5>50%</h5>
+              <p>50%</p>
             </div>
           </div>
 
           <div class="item">
-            <h5>JAVASCRIPT</h5>
+            <p>JAVASCRIPT</p>
             <div class="progress-area">
               <div class="progress-bar">
                 <div class="progress"></div>
               </div>
-              <h5>75%</h5>
+              <p>75%</p>
             </div>
           </div>
 
           <div class="item">
-            <h5>REACT</h5>
+            <p>REACT</p>
             <div class="progress-area">
               <div class="progress-bar">
                 <div class="progress"></div>
               </div>
-              <h5>50%</h5>
+              <p>50%</p>
             </div>
           </div>
         </div>
@@ -62,37 +62,37 @@ export const Skills = () => {
               <span>
                 <i class="fa-solid fa-pen-ruler"></i>
               </span>
-              <h4>BackEnd Development</h4>
+              <h5>BackEnd Development</h5>
             </div>
           </div>
 
           <div class="item">
-            <h5>NodeJs</h5>
+            <p>NodeJs</p>
             <div class="progress-area">
               <div class="progress-bar">
                 <div class="progress-node"></div>
               </div>
-              <h5>40%</h5>
+              <p>40%</p>
             </div>
           </div>
 
           <div class="item">
-            <h5>Mongo DB</h5>
+            <p>Mongo DB</p>
             <div class="progress-area">
               <div class="progress-bar">
                 <div class="progress"></div>
               </div>
-              <h5>50%</h5>
+              <p>50%</p>
             </div>
           </div>
 
           <div class="item">
-            <h5>MySql</h5>
+            <p>MySql</p>
             <div class="progress-area">
               <div class="progress-bar">
                 <div class="progress"></div>
               </div>
-              <h5>75%</h5>
+              <p>75%</p>
             </div>
           </div>
         </div>
@@ -103,17 +103,17 @@ export const Skills = () => {
               <span>
                 <i class="fa-solid fa-pen-ruler"></i>
               </span>
-              <h4>CMS</h4>
+              <h5>CMS</h5>
             </div>
           </div>
 
           <div class="item">
-            <h5>Wordpress</h5>
+            <p>Wordpress</p>
             <div class="progress-area">
               <div class="progress-bar">
                 <div class="progress"></div>
               </div>
-              <h5>92%</h5>
+              <p>92%</p>
             </div>
           </div>
         </div>

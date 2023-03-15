@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { Container } from "react-bootstrap";
 
 const Hero = () => {
   return (
@@ -10,7 +9,7 @@ const Hero = () => {
         <Card.Img src="./img/hero2.jpg" alt="Card image" />
         <Card.ImgOverlay>
           <Card.Text className="text-end text-white mt-5">
-            <p className="welcome">
+            <p>
               BIENVENIDO! Hago diseño y desarrollo web y te invito a que mires
               mis trabajos
             </p>

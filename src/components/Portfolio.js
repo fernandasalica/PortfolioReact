@@ -10,7 +10,7 @@ const Portfolio = () => {
       <Container className="mb-5" id="portfolio">
         <br></br>
         <br></br>
-        <h2 className="text-center">PORTFOLIO</h2>
+        <h4 className="text-center">PORTFOLIO</h4>
         <hr></hr>
         <Row xs={1} md={3} className="g-4">
           <Col>
@@ -60,8 +60,7 @@ const Portfolio = () => {
               <Card.Body>
                 <Card.Title>Rolling Films</Card.Title>
                 <Card.Text>
-                  Blog de películas realizado en HTML, Boostrap, Css,
-                  Javascript, React, NodeJs, MongoDb.
+                  Blog de películas realizado en React, NodeJs, MongoDb.
                 </Card.Text>
                 <Card.Footer className="bg-white p-1">
                   <Button

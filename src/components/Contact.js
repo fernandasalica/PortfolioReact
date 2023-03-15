@@ -7,10 +7,10 @@ const Contact = () => {
     <>
       <Container className="image" id="contact">
         <div className="fondo">
-          <h2 className="text-center mt-5 text-white">CONTACTO</h2>
-          <h5 className="text-white text-center my-3">
+          <h4 className="text-center mt-5 text-white">CONTACTO</h4>
+          <p className="text-white text-center my-3">
             Contactate y haceme llegar tu comentario, opinión...
-          </h5>
+          </p>
           <Form
             className="form"
             action="https://formspree.io/f/xvoldrwl"

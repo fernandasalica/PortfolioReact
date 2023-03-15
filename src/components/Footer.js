@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
       </Container>
       <div className="my-4">
-        <p className="text-center bg-black p-3 text-white">
+        <p className="text-center bg-black p-3 text-white fs-6">
           Copyright © 2023 - Todos los derechos reservados
         </p>
       </div>
